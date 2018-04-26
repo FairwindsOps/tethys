@@ -1,0 +1,43 @@
+#!/usr/bin/env python
+
+import os
+import requests
+import logging
+import json
+
+from flask import Flask
+
+app = Flask(__name__)
+
+api = os.environ.get('API', "https://talaikis.com/api/quotes/random/")
+port = os.environ.get('PORT')
+name = os.environ.get('NAME', 'World')
+
+
+@app.before_first_request
+def setup_logging():
+    if not app.debug:
+        # In production mode, add log handler to sys.stderr.
+        app.logger.addHandler(logging.StreamHandler())
+        app.logger.setLevel(logging.INFO)
+
+
+@app.route('/')
+def tethys():
+    """ main route of flask app """
+    r = json.loads(requests.get(api).content)
+    app.logger.info(r)
+    page_content = []
+    for key in r:
+        page_content.append(
+            "<p><h1>{key}:</h1><h4>{value}</h4></p>"
+            .format(key=key, value=r[key])
+            )
+    return "".join(page_content)
+
+
+@app.route('/hello')
+def hello_word():
+    return 'Hello, World!'
+
+app.run(host='0.0.0.0', port=int(port))
