@@ -56,4 +56,4 @@ You will be asked to provide a public ssh key and you will will be given an user
   - Ensure that pods of each of the three Deployments within are running successfully
     - You may need to troubleshoot Pods and Deployments with the `kubectl describe`  or `kubectl logs` commands
     - Note any changes you may have made to ensure the applications and services function
-  - (Optional) Create a private git repository in  github/gitlab, push your local copy there and share with us.
+  - (Optional) Create a public git repository in  github/gitlab, push the local branch of the `tethys` repository with your changes there and share with us.
