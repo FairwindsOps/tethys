@@ -1,13 +1,16 @@
 # tethys
-ReactiveOps Candidate Technical Challenge
+#### ReactiveOps Candidate Technical Challenge
 
-Listed below are a series of tasks. **Complete as many as you can in the allotted time.** While some tasks naturally build on the previous you do not have to complete them in order. 
+Listed below are a series of tasks. **Complete as many as you can in the allotted time.** While some tasks naturally build on the previous you do not have to complete them in order. You will be asked to provide a public ssh key and you will will be given an username and IP address of an VM on which to complete the tasks. The VM will be running Debian Jessie Linux. **Alotted time is 1Hr.** You may complete the tasks all in one sitting but are not required to do so. Time keeping is up to you. 
 
-You will be asked to provide a public ssh key and you will will be given an username and IP address of an VM on which to complete the tasks. The VM will be running Debian Jessie Linux.
-
-**Alotted time is 1Hr.** You may complete the tasks all in one sitting but are not required to do so. Time keeping is up to you.
+Before you begin, read the entire list of tasks and conduct any preliminary research required to fully understand the goals. This should not be included in your 1 hour. Reach out with any questions or clarifications you have.
 
 ---
+## tl;dr
+**Complete as many as you can in 1 hour in any order you like. Ask questions!**
+
+---
+# Tasks:
 
 - Login to EC2 instance
   - SSH into EC2 instance using your assigned username and SSH key pair
