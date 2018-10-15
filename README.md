@@ -3,7 +3,7 @@
 
 Welcome! 
 
-Listed below are a series of tasks. **Complete as many as you can in the allotted time.** While some tasks naturally build on the previous tasks, you do not have to complete them in order. Feel free to skip around through the different tasks in the challenge, and feel free to move on to another task, even if you've partially completed one. There are lots of things to do in this challenge, and we do not expect you to complete them all. Do you best. 
+Listed below are a series of tasks. **Complete as many as you can in the allotted time.** While some tasks naturally build on the previous tasks, you do not have to complete them in order. The only thing that is required is Part 1. Other than that, feel free to skip around through the different tasks in the challenge, and feel free to move on to another task, even if you've partially completed one. There are lots of things to do in this challenge, and we do not expect you to complete them all. Do you best. 
 
 Before you begin the challenge, you will be asked to provide a public ssh key and you will be given an username and IP address of an VM on which to complete the tasks. The VM will be running Debian Jessie Linux. **Alotted time is 1Hr.** You may complete the tasks all in one sitting but are not required to do so. Time keeping is up to you. 
 
