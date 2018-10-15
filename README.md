@@ -38,16 +38,16 @@ _Goal: Containerize an existing app using Docker_
   - Using `docker build`, build an image from the Dockerfile within the `tethys` repository
 - Run and configure image
   - Read the documentation within the cloned repository and familiarize yourself with the application within
-  - Understand the configuration options necessary for the Docker image you just built to run successfully
-    - Add a `CMD` directive to your Dockerfile to make sure the python app runs within the container
+  - Research the configuration options necessary for the Docker image you just built to run successfully
   - Run the Docker image you just built using `docker run`, and include the following options: 
     - Set the `PORT` environment variable to `8080`
     - Publish the container to port `4000` and map it to `8080` 
+    - A command to start the application 
 - Modify `Dockerfile`
-  - Using the Dockerfile `COMMAND` or `ENTRYPOINT` directives, ensure that the docker image built can be run without the `command` flag being specified 
+  - Using the Dockerfile `CMD` or `ENTRYPOINT` directives, ensure that the docker image built can be simply running `docker run <name_of_image>`
   - Test your Dockerfile changes by re-building the Docker image and testing it by re-running
   - Once you’re satisfied, use git to commit your changes to the Dockerfile to your local git branch
-- Make Docker web service survive an EC2 instance restart
+- Make the Docker web service survive an EC2 instance restart
   - Ensure the Docker image/web service is running as a named, daemonized container
   - Write a `systemd` definition that will start/stop your named container
   - Ensure `systemd` will restart your container/service if EC2 instance is rebooted
