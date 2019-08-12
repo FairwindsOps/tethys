@@ -1,5 +1,5 @@
 # tethys
-#### ReactiveOps Candidate Technical Challenge
+#### Fairwinds Candidate Technical Challenge
 
 Welcome! 
 
@@ -7,7 +7,7 @@ Listed below are a series of tasks. **Complete as many as you can in the allotte
 
 Before you begin the challenge, you will be asked to provide a public ssh key and you will be given an username and IP address of an VM on which to complete the tasks. The VM will be running Debian Jessie Linux. **Alotted time is 1Hr.** You may complete the tasks all in one sitting but are not required to do so. Time keeping is up to you. 
 
-Before you begin, read the entire list of tasks and conduct any preliminary research required to fully understand the goals. This should not be included in your 1 hour. We will invite you as a guest to a single channel on the ReactiveOps Slack workspace. Once you are in, post any questions or clarifications you have and someone from ReactiveOps will respond. 
+Before you begin, read the entire list of tasks and conduct any preliminary research required to fully understand the goals. This should not be included in your 1 hour. We will invite you as a guest to a single channel on the Fairwinds Slack workspace. Once you are in, post any questions or clarifications you have and someone from Fairwinds will respond. 
 
 
 ---
@@ -71,7 +71,7 @@ _Goal: Install minikube and deploy an existing app into a Kubernetes Cluster_
   - Following the official documentation, install the correct flavor of `minikube` on the EC2 instance
   - After your minikube cluster is started, ensure `kubectl` is communicating with it properly
 - Deploy an application onto minikube cluster
-  - In your home directory, clone the following git repository : https://github.com/reactiveops/k8s-workshop
+  - In your home directory, clone the following git repository : https://github.com/FairwindsOps/k8s-workshop
   - Use the resources within the `common` directory to apply/deploy the workshop’s application and its dependencies to your minikube cluster
   - Ensure the application and its dependencies are deployed in the `k8s-workshop` namespace
   - Ensure that pods of each of the three Deployments within are running successfully
